@@ -1,0 +1,93 @@
+body { 
+background-color: #ECECEC; 
+color: #5D5B6A;
+font-family: 'Lato', serif;
+font-size: 16px;}
+
+
+
+h1{ color: black; 
+font-family:'Lato', sans-serif;}
+
+h2{color: black;
+font-family:'Playfair Display', serif;
+font-size: 24px;}
+
+
+a{
+
+	text-decoration:none  ;
+	color: darkgreen;
+}
+
+a:hover {
+	color: #711A75;
+}
+
+
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin:40px auto ;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white ;
+	padding: 40px;
+	box-shadow: 0px 10xpx 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius:50%;
+}
+
+.btn-green{ 
+	background-color: #413C69;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+
+ }
+.btn-green:hover{
+	background-color:darkgreen ;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #413C69;
+}
+.list-inline i:hover {
+	front-size: 50px;
+	color: darkgreen;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
